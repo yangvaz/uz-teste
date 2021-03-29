@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #fff;
+}
+
+.card {
+  width: 220px;
+  height: 385px;
+  border: 2px solid rgb(224, 224, 224);
+  border-radius: 5px;
+
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: #fff;
+}
+
+img {
+  margin-top: 10px;
+
+  width: 60px;
+  height: 180px;
+}
+
+.description, .infoProduct, .priceProduct, .info, .footer, h4 {
+  width: 100%;
+  padding: 3px;
+}
+
+.description {
+  height: 35%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoProduct {
+  font-size: 0.8125rem;
+  color: rgb(99, 99, 99);
+}
+
+.priceProduct {
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  width: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.info {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: rgb(47, 168, 67);
+}
+
+.detailsLink {
+  width: 100%;
+
+  margin-top: 10px;
+}
+
+.footer {
+  max-height: 15%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+button {
+  background: #fff;
+  border: 1px solid rgb(28, 62, 155);
+  color: rgb(32, 69, 170);
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.btnRetirar, .btnAdicionar {
+  min-width: 30px;
+  min-height: 30px;
+
+  border-radius: 100%;
+}
+
+
+.btnUpdate {
+  min-width: 45%;
+  min-height: 100%;
+
+  border-radius: 5px;
+}
