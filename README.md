@@ -1,46 +1,54 @@
-# Getting Started with Create React App
+<h3 align="center"> Em Web/Desktop
+    <img src="src/images/modelExamples/webExample.png">
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br />
 
-## Available Scripts
+<h3 align="center"> Em Tablet
+    <img src="src/images/modelExamples/tabletModel.png">
+</h3>
 
-In the project directory, you can run:
+<br />
 
-### `yarn start`
+<h3 align="center"> Em tablet pequeno
+    <img src="src/images/modelExamples/smallTabletModel.png">
+</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<h3 align="center"> Em Mobile
+    <img src="src/images/modelExamples/mobileExample.png">
+</h3>
 
-### `yarn test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔖 &nbsp; Sobre
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Um modelo de exibição de produtos, do que seria uma loja de cervejas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+<br />
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+##  📁 &nbsp; Como baixar o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    # Clonar o repositório
+    $ git clone https://github.com/yangvaz/uz-teste
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+    # Entrar no diretório
+    $ cd uz-teste
 
-## Learn More
+    # Instalar as dependências
+    $ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    # Iniciar o projeto
+    $ yarn start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
+
+Desenvolvido por Yan Garcia 🥑 
