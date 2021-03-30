@@ -7,25 +7,37 @@ body {
   font-family: sans-serif;
 }
 
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   height: 100vh;
   width: 100vw;
+  max-width: 1100px;
+
+  flex-wrap: wrap;
 
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-
-  background-color: #fff;
+  justify-content: center;
 }
 
 .card {
   width: 220px;
   height: 385px;
-  border: 2px solid rgb(224, 224, 224);
+  border-top: 1px solid rgb(224, 224, 224);
+  border-right: 1px solid rgb(224, 224, 224);
+  border-bottom: 2px solid rgb(224, 224, 224);
+  border-left: 2px solid rgb(224, 224, 224);
   border-radius: 5px;
+  
+  padding: 10px;
+  margin: 10px;
 
-  padding: 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,10 +46,35 @@ body {
   background-color: #fff;
 }
 
-img {
+h4 {
+  font-weight: bold;
+}
+
+.imgBeerModelo {
   margin-top: 10px;
 
   width: 60px;
+  height: 180px;
+}
+
+.imgBeerPresident {
+  margin-top: 10px;
+
+  width: 120px;
+  height: 180px;
+}
+
+.imgBeerBrahmaLight {
+  margin-top: 10px;
+
+  width: 150px;
+  height: 180px;
+}
+
+.imgBeerBudweiser {
+  margin-top: 10px;
+
+  width: 90px;
   height: 180px;
 }
 
@@ -58,6 +95,13 @@ img {
 .infoProduct {
   font-size: 0.8125rem;
   color: rgb(99, 99, 99);
+}
+
+.recycleIcon {
+  width: 10px;
+  height: 10px;
+
+  margin-left: 5px;
 }
 
 .priceProduct {
@@ -100,6 +144,15 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  /* background-color: rgb(243, 243, 243); */
+
+  background: rgb(32, 69, 170);
+  color: #fff;
+
+  transition: background-color 0.3s;
+}
+
 .btnRetirar, .btnAdicionar {
   min-width: 30px;
   min-height: 30px;
@@ -113,4 +166,39 @@ button {
   min-height: 100%;
 
   border-radius: 5px;
+}
+
+.Modelo {
+  background: rgb(201, 200, 200);
+  border: 1px solid rgb(201, 200, 200);
+  color: rgb(92, 92, 92);
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.btnInative {
+  background: #fff;
+  border: 1.5px solid rgb(92, 92, 92);
+  color: rgb(92, 92, 92);
+
+  cursor: pointer;
+}
+
+.BrahmaLight {
+  background: rgb(201, 200, 200);
+  border: 1px solid rgb(201, 200, 200);
+  color: rgb(92, 92, 92);
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.labelCount {
+  width: 14%;
+  height: 85%;
+  border: 1px solid rgb(224, 224, 224);
+  border-radius: 5px;
+
+  text-align: center;
 }
