@@ -6,19 +6,10 @@ import recycleIconImg from "../images/recycle.png";
 import { FiCheck } from "react-icons/fi";
 
 export default function Card() {
-  const name = useSelector((state: RootStateOrAny) => state.name);
-  const infoProduct = useSelector((state: RootStateOrAny) => state.infoProduct);
-  const recycleIcon = useSelector((state: RootStateOrAny) => state.recycleIcon);
-  const priceProduct = useSelector((state: RootStateOrAny) => state.priceProduct);
-  const info = useSelector((state: RootStateOrAny) => state.info);
-  const urlLink = useSelector((state: RootStateOrAny) => state.urlLink);
-  const imgBeerUrl = useSelector((state: RootStateOrAny) => state.imgBeerUrl);
 
-  const classNameImg = useSelector((state: RootStateOrAny) => state.classNameImg);
-  const btnRetirar = useSelector((state: RootStateOrAny) => state.btnRetirar);
-  const qtdLabelCount = useSelector((state: RootStateOrAny) => state.qtdLabelCount);
-  const btnAdicionar = useSelector((state: RootStateOrAny) => state.btnAdicionar);
-  const btnUpdate = useSelector((state: RootStateOrAny) => state.btnUpdate);
+  const { name, infoProduct, recycleIcon, priceProduct, info, urlLink, imgBeerUrl, classNameImg,
+    btnRetirar, qtdLabelCount, btnAdicionar, btnUpdate } = useSelector((state: RootStateOrAny) => 
+    state);
 
   return (
     <div className="App">
