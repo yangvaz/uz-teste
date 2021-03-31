@@ -1,22 +1,22 @@
-<h3 align="center"> Em Web/Desktop
+<h3 align="center"> Em Web/Desktop <br />
     <img src="public/webExample.PNG">
 </h3>
 
 <br />
 
-<h3 align="center"> Em Tablet
+<h3 align="center"> Em Tablet <br />
     <img src="public/tabletModel.PNG">
 </h3>
 
 <br />
 
-<h3 align="center"> Em tablet pequeno
+<h3 align="center"> Em tablet pequeno <br />
     <img src="public/smallTabletModel.PNG">
 </h3>
 
 <br />
 
-<h3 align="center"> Em Mobile
+<h3 align="center"> Em Mobile <br />
     <img src="public/mobileExample.PNG">
 </h3>
 
