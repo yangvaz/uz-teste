@@ -1,23 +1,23 @@
 <h3 align="center"> Em Web/Desktop
-    <img src="public/webExample.png">
+    <img src="public/webExample.PNG">
 </h3>
 
 <br />
 
 <h3 align="center"> Em Tablet
-    <img src="public/tabletModel.png">
+    <img src="public/tabletModel.PNG">
 </h3>
 
 <br />
 
 <h3 align="center"> Em tablet pequeno
-    <img src="public/smallTabletModel.png">
+    <img src="public/smallTabletModel.PNG">
 </h3>
 
 <br />
 
 <h3 align="center"> Em Mobile
-    <img src="public/mobileExample.png">
+    <img src="public/mobileExample.PNG">
 </h3>
 
 <br />
