@@ -1,6 +1,23 @@
 import { createStore } from 'redux';
 
-const INITIAL_STATE = {
+interface beerProps {
+  data: string[];
+
+  name: string[];
+  infoProduct: string[],
+  recycleIcon: boolean[],
+  priceProduct: string[],
+  info: string[],
+  urlLink: string[],
+  imgBeerUrl: string[],
+  classNameImg: string[],
+  btnRetirar: string[],
+  qtdLabelCount: string[],
+  btnAdicionar: string[],
+  btnUpdate: string[],
+}
+
+const INITIAL_STATE: beerProps = {
   data: [
     'Heineken',
     'Budweiser',
@@ -47,6 +64,36 @@ const INITIAL_STATE = {
     'http://4.bp.blogspot.com/-OKbXZIs67uE/TXg3aKGV8KI/AAAAAAAACeo/7QHLq2PAK2g/s1600/cerveza%2Bbrahma-light.jpg',
     'https://www.imigrantesbebidas.com.br/bebida/images/products/full/71062_Cerveja_Budweiser_Long_Neck_330ml.jpg',
   ],
+  classNameImg: [
+    'imgBeerModelo',
+    'imgBeerPresident',
+    'imgBeerBrahmaLight',
+    'imgBeerBudweiser',
+  ],
+  btnRetirar: [
+    'btnRetirar btnInative',
+    'btnRetirar',
+    'btnRetirar',
+    'btnRetirar',
+  ],
+  qtdLabelCount: [
+    '0',
+    '4',
+    '2',
+    '2',
+  ],
+  btnAdicionar: [
+    'btnAdicionar',
+    'btnAdicionar',
+    'btnAdicionar',
+    'btnAdicionar',
+  ],
+  btnUpdate: [
+    'btnUpdate Modelo',
+    'btnUpdate President',
+    'btnUpdate BrahmaLight',
+    'btnUpdate Budweiser',
+  ]
 };
 
 function beers(state = INITIAL_STATE, action: any) {
